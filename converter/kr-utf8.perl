@@ -1,4 +1,9 @@
 #!/usr/bin/perl
+#
+# This source code is originally from the below URL:
+# http://mwultong.blogspot.com/2006/10/perl-euc-kr-utf-8-convert-unicode.html
+#
+
 use strict; use warnings;
 
   &help if $#ARGV == -1; # 옵션이 없으면 도움말 출력하고 종료
